@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Class3.cs" />
     <Compile Include="_06_Types_Of_Class_Variable.cs" />
     <Compile Include="_05_Static_Constructors.cs" />
     <Compile Include="_04_Copy_Constructors.cs" />

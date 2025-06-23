@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B216D694-993F-467F-9494-FB72AFF93D00}</ProjectGuid>
+    <ProjectGuid>{B0BF5915-8396-4A7E-90D3-205821D0CE1A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpProject</RootNamespace>
-    <AssemblyName>CSharpProject</AssemblyName>
+    <RootNamespace>AccessSpecifiers</RootNamespace>
+    <AssemblyName>AccessSpecifiers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,10 +32,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CSharpProject.Two</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CSharpProject">
+      <HintPath>..\CSharpProject\bin\Debug\CSharpProject.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,23 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class3.cs" />
-    <Compile Include="Class5.cs" />
-    <Compile Include="_09_Inheritance.cs" />
-    <Compile Include="_08_Inheritance.cs" />
-    <Compile Include="_07_Access_Specifiers.cs" />
-    <Compile Include="_06_Types_Of_Class_Variable.cs" />
-    <Compile Include="_05_Static_Constructors.cs" />
-    <Compile Include="_04_Copy_Constructors.cs" />
-    <Compile Include="_03_Parameterzied_Constructors.cs" />
-    <Compile Include="_02_Explict_Constructors.cs" />
-    <Compile Include="_01_Implict_Cunstructors.cs" />
+    <Compile Include="_01_inherit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

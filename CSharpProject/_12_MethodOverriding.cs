@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSharpProject
 {
-    internal class Class1
+    public class _12_MethodOverriding
     {
-        public static void Main()
+
+        static void Main()
         {
-            Console.WriteLine("Second Class");
+            Console.WriteLine("hello");
         }
     }
 }

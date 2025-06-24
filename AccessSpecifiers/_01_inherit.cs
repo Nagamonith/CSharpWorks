@@ -9,7 +9,7 @@ namespace AccessSpecifiers
 {
     internal class _01_inherit : CSharpProject._07_Access_Specifiers
     {
-        static void Main()
+        static void main()
         {
             _01_inherit h = new _01_inherit();
             h.test3();

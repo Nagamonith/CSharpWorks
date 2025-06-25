@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessSpecifiers", "AccessS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{830B031F-FA9E-4303-8235-44424DE42831}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelProject", "ExcelProject\ExcelProject.csproj", "{9BD991DF-F564-48BC-8783-2BFFC91768DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank_Customer", "Bank_Customer\Bank_Customer.csproj", "{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{830B031F-FA9E-4303-8235-44424DE42831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{830B031F-FA9E-4303-8235-44424DE42831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{830B031F-FA9E-4303-8235-44424DE42831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD991DF-F564-48BC-8783-2BFFC91768DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD991DF-F564-48BC-8783-2BFFC91768DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD991DF-F564-48BC-8783-2BFFC91768DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD991DF-F564-48BC-8783-2BFFC91768DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B216D694-993F-467F-9494-FB72AFF93D00}</ProjectGuid>
+    <ProjectGuid>{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpProject</RootNamespace>
-    <AssemblyName>CSharpProject</AssemblyName>
+    <RootNamespace>Bank_Customer</RootNamespace>
+    <AssemblyName>Bank_Customer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpProject._20_Property</StartupObject>
+    <StartupObject>Bank_Customer.Bank_Customer</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,35 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class3.cs" />
-    <Compile Include="Class5.cs" />
-    <Compile Include="_20_Property.cs" />
-    <Compile Include="_09_Inheritance.cs" />
-    <Compile Include="_08_Inheritance.cs" />
-    <Compile Include="_07_Access_Specifiers.cs" />
-    <Compile Include="_06_Types_Of_Class_Variable.cs" />
-    <Compile Include="_05_Static_Constructors.cs" />
-    <Compile Include="_04_Copy_Constructors.cs" />
-    <Compile Include="_03_Parameterzied_Constructors.cs" />
-    <Compile Include="_02_Explict_Constructors.cs" />
-    <Compile Include="_01_Implict_Cunstructors.cs" />
+    <Compile Include="Bank_Customer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_10_Inheritance.cs" />
-    <Compile Include="_11_Method_overloading.cs" />
-    <Compile Include="_12_MethodOverriding.cs" />
-    <Compile Include="_12_Method_overriding.cs" />
-    <Compile Include="_13_Method_hiding.cs" />
-    <Compile Include="_14_Operator_overloading.cs" />
-    <Compile Include="_15_Abstract_class.cs" />
-    <Compile Include="_16_Interface.cs" />
-    <Compile Include="_17_Interface.cs" />
-    <Compile Include="_18_Structures.cs" />
-    <Compile Include="_19_Enum.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

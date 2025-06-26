@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpProject._20_Property</StartupObject>
+    <StartupObject>CSharpProject._26_IComparable</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Class3.cs" />
     <Compile Include="Class5.cs" />
+    <Compile Include="_20_Indexercs.cs" />
     <Compile Include="_20_Property.cs" />
     <Compile Include="_09_Inheritance.cs" />
     <Compile Include="_08_Inheritance.cs" />
@@ -72,6 +73,13 @@
     <Compile Include="_17_Interface.cs" />
     <Compile Include="_18_Structures.cs" />
     <Compile Include="_19_Enum.cs" />
+    <Compile Include="_21_Srting_Builders.cs" />
+    <Compile Include="_22_Collections_01.cs" />
+    <Compile Include="_23_Hashtables.cs" />
+    <Compile Include="_24_List.cs" />
+    <Compile Include="_25_Genarics.cs" />
+    <Compile Include="_26_Genaric_dictonary.cs" />
+    <Compile Include="_26_IComparable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />

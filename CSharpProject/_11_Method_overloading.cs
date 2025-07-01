@@ -23,7 +23,8 @@ namespace CSharpProject
         public void method4(int i, string s) 
         {
             Console.WriteLine("this has 2 argument ");
-            }
+            Console.WriteLine("");
+            } 
         public void method5(string s , int i)
         {
             Console.WriteLine("this has 2 argument but the position is changes");

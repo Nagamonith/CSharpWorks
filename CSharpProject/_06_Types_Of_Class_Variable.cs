@@ -23,7 +23,7 @@ namespace CSharpProject
             Console.WriteLine("the varibale is" + x);
         }
         public _06_Types_Of_Class_Variable(_06_Types_Of_Class_Variable obj) // Copy Constructor
-        {
+        { 
             this.x = obj.x;
         }
         static void Main() // main method 

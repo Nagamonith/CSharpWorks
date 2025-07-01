@@ -11,12 +11,12 @@ namespace CSharpProject
         int x;
         public _04_Copy_Constructors(int i)
         {
-            x = i;
+            this.x = i;
 
         }
         public _04_Copy_Constructors(_04_Copy_Constructors obj)
         {
-            x=obj.x;
+            this.x=obj.x;
         }
         public void Display()
         {

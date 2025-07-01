@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie_Ticket_Booking", "Ticket_Booking\Movie_Ticket_Booking.csproj", "{6506AA2B-D750-4C35-9DAE-D290B8C546FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD46DD88-7DF2-4735-ADF9-768DAA684BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6506AA2B-D750-4C35-9DAE-D290B8C546FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6506AA2B-D750-4C35-9DAE-D290B8C546FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6506AA2B-D750-4C35-9DAE-D290B8C546FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6506AA2B-D750-4C35-9DAE-D290B8C546FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
